@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace ApartmanOtomasyonDeneme
 {
-    public partial class Form1 : Form
+    public partial class Giderler : Form
     {
-        public Form1()
+        public Giderler()
         {
             InitializeComponent();
-        }
-
-        private void btngelirler_Click(object sender, EventArgs e)
-        {
-            new Gelirler().Show();
-        }
-
-        private void btngiderler_Click(object sender, EventArgs e)
-        {
-            new Giderler().Show();
         }
     }
 }
