@@ -16,7 +16,7 @@ namespace ApartmanOtomasyonDeneme
         public SqlConnection Connection {  get; set; }
         public SQLHelper()
         {
-            ConnectionString = "Data Source=DESKTOP-T11FMIO;Initial Catalog=APARTMAN;Integrated Security=True;TrustServerCertificate=True";
+            ConnectionString = "Data Source=DESKTOP-;Initial Catalog=APARTMAN;Integrated Security=True;TrustServerCertificate=True";
             Connection=new SqlConnection(ConnectionString);
            
 
